@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Stilovi za zaglavlje */
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Stilovi za navigaciju */
+nav {
+    background-color: #2980b9;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #1c638e;
+}
+
+/* Glavni sadržaj */
+main {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Stilovi za sekcije smerova */
+.smer {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 5px solid;
+}
+
+.smer h2 {
+    margin-top: 0;
+}
+
+.it-smer {
+    border-left-color: #27ae60;
+    background-color: #ebf7f0;
+}
+
+.ekonomski-smer {
+    border-left-color: #f39c12;
+    background-color: #fef5e7;
+}
+
+.medicinski-smer {
+    border-left-color: #e74c3c;
+    background-color: #fdedec;
+}
+
+.gimnazija {
+    border-left-color: #9b59b6;
+    background-color: #f4ecf7;
+}
+
+/* Stilovi za podnožje */
+footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Stil za dugme */
+.dugme {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.dugme:hover {
+    background-color: #2980b9;
+}
